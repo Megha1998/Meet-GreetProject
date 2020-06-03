@@ -12,9 +12,11 @@ class PageController extends Controller
     //
     public function Vacancies()
     {
+        $res = Resturant::get();
         $vacancies = Addvacancies::get();
         return view('Frontend.vacancies')->with([
-            'vacancies' => $vacancies
+            'vacancies' => $vacancies,
+            'res' => $res
         ]);
     }
     public function Resturant()
