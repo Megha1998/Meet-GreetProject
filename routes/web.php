@@ -31,7 +31,7 @@ Route::get('careers', function () {
 //Route::get('event', function () {
 //    return view('Frontend.event');
 //})->name('event');
-Route::get('/home', 'PageController@Home')->name('home');
+Route::get('/', 'PageController@Home')->name('/');
 
 Route::get('/vacancies', 'PageController@Vacancies')->name('vacancies');
 Route::get('/form', 'PageController@Form')->name('form');

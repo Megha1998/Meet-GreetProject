@@ -38,7 +38,7 @@
                         <ul class=" navbar-nav  header-navbar-nav">
                             <li><a class=" nav-link" href="{{route('/')}}">Home</a></li>
 
-                            <li><a class=" nav-link" href="{{route('/')}}">About Us</a></li>
+{{--                            <li><a class=" nav-link" href="{{route('/')}}">About Us</a></li>--}}
 
                             <li class="dropdown">
                                 <a href="javascript:;" class="nav-link dropdown-toggle"   data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -68,11 +68,11 @@
 
                                 </ul>
                             </li>
-                            <li><a class="nav-link" href="{{route('/')}}">Careers</a></li>
-                            <li><a class="nav-link" href="{{route('/')}}">Events</a></li>
+                            <li><a class="nav-link" href="{{route('vacancies')}}">Careers</a></li>
+                            <li><a class="nav-link" href="{{route('eventshow')}}">Events</a></li>
                             <li><a class="nav-link" href="{{route('/')}}">Contact Us</a></li>
-                            <li><a class="nav-link" href="{{route('/')}}">Blog</a></li>
-                            <li class="btn-nav mr-lg-3"><a class="btn btn-primary btn-sm " href="https://crm.tecions.com/authentication/login" target="_blank"><span class="fa fa-user-circle mr-1"></span>Signin</a></li>
+{{--                            <li><a class="nav-link" href="{{route('/')}}">Blog</a></li>--}}
+{{--                            <li class="btn-nav mr-lg-3"><a class="btn btn-primary btn-sm " href="https://crm.tecions.com/authentication/login" target="_blank"><span class="fa fa-user-circle mr-1"></span>Signin</a></li>--}}
                             {{--<li>--}}
                             {{--<a class="btn btn-xs btn-icon btn-text-dark pb-3 pb-lg-0 pl-0 pt-0" href="#search" data-toggle="modal" data-target="#search">--}}
                             {{--<span class="fa fa-search "></span>--}}
